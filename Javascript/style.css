@@ -55,15 +55,30 @@ body {
 .Ukol11 {
     text-align: center;
     color: coral;
+    position: relative;
 }
 
 img {
+    position: relative;
     text-align: center;
     height:300px;
     width:400px;
 }
 
-img:hover {
-    height:400px;
-    width:500px;
+#nadpis_pic {
+    color: yellow;
+    align-content: center;
+    position: absolute;
+    bottom: 70%;
+    right: 40%;
+    left: 40%;
+}
+
+#text_pic {
+    color: yellow;
+    align-content: center;
+    position: absolute;
+    top: 80%;
+    right: 40%;
+    left: 40%;
 }
