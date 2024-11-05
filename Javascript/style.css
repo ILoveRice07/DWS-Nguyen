@@ -4,40 +4,61 @@ body {
 
 .Ukol1 {
     text-align: center;
-    color:coral
+    color:coral;
 }
 
 .Ukol2 {
     text-align: center;
-    color:darkblue
+    color:coral;
 }
 
 .Ukol3 {
     text-align: center;
-    color:rgb(0, 139, 63)
+    color:coral;
 }
 
 .Ukol4 {
     text-align: center;
-    color:aqua;
+    color:coral;
 }
 
 .Ukol5 {
     text-align: center;
-    color:tomato;
+    color:coral;
 }
 
 .Ukol6 {
     text-align: center;
-    color: chartreuse;
+    color: coral;
 }
 
 .Ukol7 {
     text-align: center;
-    color:crimson;
+    color:coral;
 }
 
 .Ukol8 {
     text-align: center;
-    color: blueviolet;
+    color: coral;
+}
+
+.Ukol9 {
+    text-align: center;
+    color: coral;
+}
+
+.Ukol10 {
+    text-align: center;
+    color:coral
+}
+
+.Ukol11 {
+    text-align: center;
+    color: coral;
+}
+
+img {
+    text-align: center;
+    height:300px;
+    width:400px
 }
