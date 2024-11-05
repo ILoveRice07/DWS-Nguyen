@@ -115,12 +115,15 @@ function add(){
 
 //11. Úkol, Obrázek
 const picture = document.getElementById('picture');
+const nadpis_pic = document.getElementById('nadpis_pic');
+const text_pic = document.getElementById('text_pic');
 
 picture.addEventListener("mouseenter", function(){
-    resizeTo(width, 500, height, 400);
-    picture.textContent = "This is New York. It is the most populated city in the United States of America.";
+    nadpis_pic.textContent = "This is New York.";
+    text_pic.textContent = "It is the most populated city in the United States of America."
 })
 
 picture.addEventListener("mouseout", function(){
-    picture.textContent = ""
+    nadpis_pic.textContent = ""
+    text_pic.textContent = ""
 })
