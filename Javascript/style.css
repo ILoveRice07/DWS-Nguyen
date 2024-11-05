@@ -60,5 +60,10 @@ body {
 img {
     text-align: center;
     height:300px;
-    width:400px
+    width:400px;
+}
+
+img:hover {
+    height:400px;
+    width:500px;
 }
