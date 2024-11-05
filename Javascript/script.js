@@ -92,3 +92,35 @@ datum_dva.addEventListener('mouseenter', function(){
 datum_dva.addEventListener('mouseout', function(){    
     datum_dva.textContent = 'Hover over with your cursor to see the current date.';
 })
+
+//9.Úkol, Přičítání hodnoty 3 k hodnotě vepsané uživatelem
+function Value(){
+   let final = document.getElementById('vysledek');
+   let input_U9 = document.getElementById('input_U9').value;
+   input_U9 = Number(input_U9);
+   let input_U9_final = input_U9 + 3;
+   final.textContent = 'Výsledek je: ' + input_U9_final;
+}
+
+//10. Úkol, Sčítá čísla
+function add(){
+    let vysledek_2 = document.getElementById('vysledek_2');
+    let input1 = document.getElementById('input1').value;
+    let input2 = document.getElementById('input2').value;
+    input1 = Number(input1);
+    input2 = Number(input2);
+    let input_final = input1 + input2;
+    vysledek_2.textContent = 'Výsledek je: ' + input_final
+}
+
+//11. Úkol, Obrázek
+const picture = document.getElementById('picture');
+
+picture.addEventListener("mouseenter", function(){
+    resizeTo(width, 500, height, 400);
+    picture.textContent = "This is New York. It is the most populated city in the United States of America.";
+})
+
+picture.addEventListener("mouseout", function(){
+    picture.textContent = ""
+})
