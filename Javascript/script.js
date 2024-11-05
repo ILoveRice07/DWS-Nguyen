@@ -119,11 +119,15 @@ const nadpis_pic = document.getElementById('nadpis_pic');
 const text_pic = document.getElementById('text_pic');
 
 picture.addEventListener("mouseenter", function(){
+    picture.style.width = "500px";
+    picture.style.height = "400px"
     nadpis_pic.textContent = "This is New York.";
     text_pic.textContent = "It is the most populated city in the United States of America."
 })
 
 picture.addEventListener("mouseout", function(){
+    picture.style.width = "400px"
+    picture.style.height = "300px"
     nadpis_pic.textContent = ""
     text_pic.textContent = ""
 })
