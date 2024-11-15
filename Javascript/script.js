@@ -131,3 +131,18 @@ picture.addEventListener("mouseout", function(){
     nadpis_pic.textContent = ""
     text_pic.textContent = ""
 })
+
+//12. Úkol, Přidávání úkolů
+function addList() {
+    let li = document.createElement('li')
+    let input_U12 = document.getElementById('input_U12').value;
+    let list = document.getElementById('list');
+    let a = document.createTextNode(input_U12);
+    list.appendChild(a);
+    document.getElementById("list").appendChild(li)
+
+}
+
+list.addEventListener('click', function(){
+    list.style.display = 'none'
+  })
