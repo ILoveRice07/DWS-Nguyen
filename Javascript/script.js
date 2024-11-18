@@ -133,16 +133,18 @@ picture.addEventListener("mouseout", function(){
 })
 
 //12. Úkol, Přidávání úkolů
-function addList() {
-    let li = document.createElement('li')
-    let input_U12 = document.getElementById('input_U12').value;
-    let list = document.getElementById('list');
-    let a = document.createTextNode(input_U12);
-    list.appendChild(a);
-    document.getElementById("list").appendChild(li)
+//12. Úkol, Přidávání úkolů
+let input_U12 = document.getElementById("input_U12");
+const addItem = document.getElementById("add_item");
+const list = document.getElementById("list");
 
-}
+addItem.addEventListener("click", function(){
+    let inputItem = input_U12.value;
+    const Item = document.createElement("div");
+    Item.textContent = text;
 
-list.addEventListener('click', function(){
-    list.style.display = 'none'
-  })
+    Item.addEventListener("click", function(){
+        list.removeChild(Item);
+        list.removeChild(inputItem);
+    })
+})
